@@ -35,11 +35,16 @@ background-size: cover;
 
 .green { background-color: #F7F7F7; height: 180%; padding-bottom: 40px;}
 
-.pink { background-color: #c0392b; height: 980px;}
+.pink { background-color: #F7F7F7; height: 140%; padding-bottom: 40px;}
 
-.black { background-color: #2c3e50; height: 980px; }
+.black { background:
+url(/img/albums.png) no-repeat center center fixed;
+background-size: cover;
+ height: 530px;
+  overflow-x: hidden;
+        overflow-y: hidden;}
 
-.orange { background-color: #ff6600; height: 980px; }
+.orange { background-color: #F7F7F7; height: 180%; padding-bottom: 40px; padding-top: 40px;}
 
 nav{ 
   -webkit-backface-visibility: hidden;
@@ -178,6 +183,21 @@ position: absolute;
 text-align: center;
 
 }
+
+.h1career {
+font-family: 'Open Sans', sans-serif;
+font-weight: 400italic;
+font-size: 6em;
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+margin-top: -0.7em;
+padding-top: 0.5em;
+text-align: center;
+    padding-bottom: -30;
+    margin-bottom: 0.2em;
+}
+
 
 #intro {
 padding-top: 11em;
