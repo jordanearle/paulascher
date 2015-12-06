@@ -263,6 +263,28 @@ position: absolute;
     padding-bottom: 3em;
 }
 
+.swatch1 {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    width: auto;
+    padding-right: 5em;
+    padding-top: 1em;
+    padding-bottom: 3em;
+}
+
+.swatch2 {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+        height: 300px;
+    width: auto;
+}
+
+.posters {
+text-align: center;
+}
 
 
 
