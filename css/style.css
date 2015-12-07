@@ -40,6 +40,7 @@ background-size: cover;
 .black { background:
 url(http://jordanearle.github.io/paulascher/img/albums1.png) no-repeat center center fixed;
 background-size: cover;
+    opacity: 0.9;
  height: 530px;
   overflow-x: hidden;
         overflow-y: hidden;}
@@ -241,9 +242,8 @@ padding-bottom: 50%;
 margin-left: 4.5em;
 z-index: 1;
 position: absolute;
-    
-    
 }
+
 
 .hero {
     margin-top: -2em;
