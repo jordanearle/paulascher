@@ -55,7 +55,7 @@ nav{
   left: -95%;
   right: 0px;
   margin: auto;
-  width: 100px;
+  width: 40px;
 }
 
 nav li{ 
@@ -78,24 +78,12 @@ nav a{
   opacity: 0.8;
   transition: all 0.3s ease; 
   position: relative;
-  left: 5px;
+  left: -27px;
   top: 0px;
 }
 nav a:hover{ background-color: #474E56;}
 
 nav a.active{ background-color: #858E9A; width: 1px; height: 1px;}
-
-.nav1 {
-margin-left: 4em;
-margin-top: -0.7em;
-display: none;
-}
-
-.nav1:hover {
-margin-left: 4em;
-margin-top: -0.7em;
-display: block;
-}
 
 #rectangle {
 	width: 70%; 
@@ -230,6 +218,14 @@ margin-top: -4em;
 text-align: center;
 }
 
+.metrocite {
+color: #ABABAB;
+font-size: 0.9em;
+font-style: italic;
+margin-top: -4em;
+text-align: center;
+}
+
 
 /* Images */
 
@@ -253,6 +249,16 @@ position: absolute;
 }
 
 .philly {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    width: 60%;
+    padding-top: 2em;
+    padding-bottom: 3em;
+}
+
+.metropolis {
     display: block;
     margin-left: auto;
     margin-right: auto;
