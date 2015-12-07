@@ -74,16 +74,16 @@ nav a{
   -moz-border-radius:30px; 
   -webkit-border-radius:30px; 
   background-color: transparent; 
-  border: 1px solid #858E9A; 
+  border: 1px solid grey; 
   opacity: 0.8;
   transition: all 0.3s ease; 
   position: relative;
   left: -27px;
   top: 0px;
 }
-nav a:hover{ background-color: #474E56;}
+nav a:hover{ background-color: #6141FF;}
 
-nav a.active{ background-color: #858E9A; width: 1px; height: 1px;}
+nav a.active{ background-color: #6141FF; width: 1px; height: 1px;}
 
 #rectangle {
 	width: 70%; 
@@ -143,8 +143,8 @@ font-family: 'Open Sans', sans-serif;
 font-size: 2.8em;
 color: #fff;
 padding-top: 4em;
-padding-left: 6em;
-padding-right: 6em;
+padding-left: 20%;
+padding-right: 20%;
 text-align: left;
 min-width: 60%;
 }
@@ -230,15 +230,12 @@ text-align: center;
 /* Images */
 
 .logo {
-max-width: 65%;
-height: auto;
-margin-top: -49%;
-margin-bottom: -49%;
-padding-bottom: 50%;
+max-width: 840px;
 margin-left: 4.5em;
+margin-top: -90em;
+padding-bottom: 17.3em;
 z-index: 1;
-position: absolute;
-}
+display: inline-block}
 
 
 .hero {
