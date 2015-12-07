@@ -47,6 +47,10 @@ background-size: cover;
 
 .orange { background-color: #F7F7F7; height: 180%; padding-bottom: 40px; padding-top: 40px;}
 
+.grey { background-color: #F7F7F7; height: 180%; padding-bottom: 40px; padding-top: 40px;}
+
+.purple { background-color: purple; height: 300px; padding-bottom: 40px; padding-top: 40px;}
+
 nav{ 
   -webkit-backface-visibility: hidden;
   z-index: 5; 
@@ -102,6 +106,53 @@ hr {
     margin-top: 2em;
     margin-bottom: 2em;
 }
+
+/* carousel */
+
+#sliderwrapper {
+				width: 100%;
+				height: 50%;
+				position: relative;
+				left: 2;
+				top: 30%;
+}
+
+	#carousel {
+				margin-top: -100px;
+                
+			}
+			#carousel div {
+				text-align: center;
+				height: 320px;
+                width: 220px;
+				float: left;
+				position: relative;
+                padding-right: 2em;
+			}
+			#carousel div img {
+				border: none;
+                height: 320px;
+                width: 220px;
+			}
+			#carousel div span {
+				display: none;
+			}
+
+/*	#carousel div:hover span {
+				background-color: #333;
+				color: #fff;
+				font-family: Arial, Geneva, SunSans-Regular, sans-serif;
+				font-size: 14px;
+				line-height: 22px;
+				display: inline-block;
+				width: 100px;
+				padding: 2px 0;
+				margin: 0 0 0 -50px;
+				position: absolute;
+				bottom: 30px;
+				left: 50%;
+				border-radius: 3px;
+			} */
 
 
 /* Typography */
@@ -174,6 +225,21 @@ text-align: center;
 }
 
 .h1career {
+font-family: 'Open Sans', sans-serif;
+font-weight: 400italic;
+font-size: 6em;
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+margin-top: -0.7em;
+padding-top: 0.5em;
+text-align: center;
+    padding-bottom: -30;
+    margin-bottom: 0.2em;
+}
+
+
+.h1identity {
 font-family: 'Open Sans', sans-serif;
 font-weight: 400italic;
 font-size: 6em;
