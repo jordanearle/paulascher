@@ -9,17 +9,23 @@ body{
   margin: 0px;
   padding: 0px;
     max-width: 100%;
+    min-width: 480px;
     overflow-x: hidden;
 
 }
 
 
-.blue { background: linear-gradient(-24deg, rgba(255,222,67,0.50) 0%, #FFD300 100%); 
+.blue { 
+    background:  
+    linear-gradient(-24deg, rgba(255,222,67,0.50) 0%, #FFD300 100%); 
     height: 720px;
+    background-size: 100%;
+    background-repeat: no-repeat;
     z-index:-2; 
     position: relative;
-        overflow-x: hidden;
-        overflow-y: hidden;}
+    overflow-x: hidden;
+    overflow-y: hidden;
+      }
 
 .red {   
 background:
@@ -47,47 +53,43 @@ background-size: cover;
 
 .orange { background-color: #F7F7F7; height: 180%; padding-bottom: 40px; padding-top: 40px;}
 
-.grey { background-color: #F7F7F7; height: 180%; padding-bottom: 40px; padding-top: 40px;}
+.grey { background-color: #F7F7F7; height: 180%; padding-bottom: 0px; padding-top: 40px;}
 
-.purple { background-color: purple; height: 300px; padding-bottom: 40px; padding-top: 40px;}
+.gray { background-color: #F7F7F7; height: 180%; padding-bottom:0px; padding-top: 10px;}
 
-nav{ 
-  -webkit-backface-visibility: hidden;
-  z-index: 5; 
-  position: fixed;
-  top: 25%;
-  left: -95%;
-  right: 0px;
-  margin: auto;
-  width: 40px;
+.purple { background-color: #F7F7F7; height: 300px; padding-bottom: 40px; padding-top: 40px;}
+
+.indigo { background-color: #F7F7F7; height: 180%; padding-bottom: 40px; padding-top: 40px;}
+
+.navy { background-color: #252525; height: 100%; padding-bottom: 40px; padding-top: 40px;}
+
+
+    nav { 
+        padding: 2em 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+        margin: 0;
+        padding: 0.02em;
+        width: 100%;
+        background: #333;
+        opacity: 0.98;
+    z-index: 100;}    
+        
+    nav ul {
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        padding-left: 0px;
 }
-
-nav li{ 
-  height: 15px;
-  margin: 30px 0px;
-  list-style: none;
     
-}
+    nav ul li {
+        display: inline;
+        margin: 20px;}
 
-nav a{ 
-  display: block; 
-  width: 3px; 
-  height: 3px; 
-  text-indent: -9999px;
-  border-radius: 30px; 
-  -moz-border-radius:30px; 
-  -webkit-border-radius:30px; 
-  background-color: transparent; 
-  border: 1px solid grey; 
-  opacity: 0.8;
-  transition: all 0.3s ease; 
-  position: relative;
-  left: -27px;
-  top: 0px;
-}
-nav a:hover{ background-color: #6141FF;}
+nav a:hover{ background-color: #ffd81b;}
 
-nav a.active{ background-color: #6141FF; width: 1px; height: 1px;}
+nav a.active{ background-color: #ffd81b;}
 
 #rectangle {
 	width: 70%; 
@@ -105,6 +107,13 @@ hr {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.05));
     margin-top: 2em;
     margin-bottom: 2em;
+}
+
+.hrwhite {
+  border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 /* carousel */
@@ -253,6 +262,79 @@ text-align: center;
     margin-bottom: 0.2em;
 }
 
+.h1other {
+font-family: 'Open Sans', sans-serif;
+font-weight: 400italic;
+font-size: 5em;
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+margin-top: -0.7em;
+padding-top: 0.5em;
+text-align: center;
+    padding-bottom: -30;
+    margin-bottom: 0.2em;
+}
+
+
+.h1conclusion {
+font-family: 'Open Sans', sans-serif;
+font-weight: 400italic;
+font-size: 5em;
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+margin-top: -0.7em;
+padding-top: 0.5em;
+text-align: center;
+    padding-bottom: -30;
+    margin-bottom: 0.2em;
+}
+
+h3 {
+font-family: 'Open Sans', sans-serif;
+font-weight: 300italic;
+font-size: 1.2em;
+margin-left: auto;
+margin-right: auto;
+margin-top: -0.2em;
+width: 100%;
+text-align: center;
+font-style: italic;
+color: #F5F5F5;
+}
+
+.reference {
+font-family: 'Open Sans', sans-serif;
+font-weight: 200;
+font-size: 0.8em;
+color: #F5F5F5;
+padding-left: 20%;
+padding-right: 20%;
+list-style: none;
+margin-bottom: 1em;
+}
+
+.reference a {
+text-decoration: underline;
+
+}
+
+.reference a:hover {
+padding: 5px 5px 5px 5px;
+background-color:#ffd81b;
+color: dimgrey;
+
+}
+
+#credit {
+font-size: 0.8em;
+color: whitesmoke;
+opacity: 0.6;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+}
 
 #intro {
 padding-top: 11em;
@@ -270,11 +352,13 @@ li a {
     font-family: 'Open Sans', sans-serif;
 	color: #fff;
     padding: 5px 5px 5px 5px;
-    text-decoration: none;}
+    text-decoration: none;} 
+
 
 li:hover a {
-    color: white;
+    color: white; 
 }
+
 
 .doublecite {
 color: #ABABAB;
@@ -292,6 +376,13 @@ margin-top: -4em;
 text-align: center;
 }
 
+#windowsp {
+margin-bottom: -1em;
+}
+
+#otherp {
+margin-bottom: -1em;
+}
 
 /* Images */
 
@@ -354,6 +445,126 @@ display: inline-block}
 text-align: center;
 }
 
+.citisketch {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    width: 60%;
+    padding-top: 2em;
+    padding-bottom: 3em;
+}
+
+.windowslogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    width: 55%;
+    padding-top: 1em;
+    margin-bottom: -6em;
+}
+
+.jersey {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    width: 55%;
+    padding-top: 1em;
+    padding-bottom: 3em;
+}
+
+.pave {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    width: 55%;
+    padding-top: 1em;
+    padding-bottom: 3em;
+}
+
+.map {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 1em;
+    padding-bottom: 3em;
+    background-repeat: no-repeat;
+}
+
+.paulascher {
+    display: block;
+    width: 100%;
+}
+
+
+/** Media Queries **/
+
+@media (max-width: 980px) {
+    
+    .blue { 
+    height: 620px;
+      }
+    
+}
+
+@media (max-width: 780px) {
+    
+    .paulascher {
+    padding-top: 10%;
+    display: block;
+    width: 100%;
+    overflow-x: hidden;
+}
+    
+    .blue { 
+    height: 520px;
+    overflow-x: hidden;
+      }
+    
+}
+
+@media (max-width: 680px) {
+
+    .paulascher {
+    padding-top: 10%;
+    display: block;
+    width: 100%;
+    overflow-x: hidden;
+}
+    
+    .blue { 
+    height: 400px;    
+    overflow-x: hidden;
+
+      }
+    
+    .h1intro {
+font-size: 4em;
+
+}
+
+.h1career {
+font-size: 4em;
+}
+
+
+.h1identity {
+font-size: 4em;
+
+}
+
+.h1other {
+font-size: 4em;
+
+}
+    
+}
+    
 
 
 
